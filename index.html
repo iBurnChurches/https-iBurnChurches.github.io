@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head> 
+		<meta charset=:utf-8>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+
+		<title> Burning Churches</title>
+
+	
+ 
+		<style>
+	
+			button {
+            width:1175px;
+            height: 450px;
+            font-size: 150px;
+            border: 2px solid #000;
+            cursor: pointer;
+			
+        }
+
+	
+        body {
+            background-image: url('images/ChurchSmall.jpg'); /* Default background image */
+            background-size: 4000px 2500px;
+            background-position: top;
+            transition: background-image 0.1s ease; /* Smooth transition when changing background */
+			height: 98vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+		
+        /* Style for the button */
+        button {
+            position: absolute; /* Position the button relative to its containing element */
+            top: 10px;
+            left:1200px;
+        }
+		</style>
+	
+		<script>
+			function changeBackground() {
+				var body = document.querySelector('body');
+				body.style.backgroundImage = "url('images/ChurchSmallBurn.jpg')"; // Change the background image URL
+        }
+		</script>
+
+	</head>
+
+<body>
+
+
+	
+	<button onclick="changeBackground()">Awaken Thy Hell-Fire!!!</button>
+<body>
+
+
+</html>
